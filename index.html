@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Awesome Web Page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="clock"></div>
+  <div class="login_wrap">
+    <form id="login-form">
+      <div id="login-container">
+        <p id="greeting-text">이름을 입력하고 Enter을 눌러주세요.</p>
+        <h1 id="greeting" class="hidden"></h1>
+        <input type="text" id="login_input" class="login_input">
+        <input type="submit" class="login_submit">
+      </div>
+    </form>
+  </div>
+  <div id="todo-list">
+    <!-- todo-list -->
+    <h1>오늘 할 일+_+!!</h1>
+    <ul id="todo-list-ul"></ul>
+    <input type="text" id="todo-input" placeholder="할 일을 입력하세요">
+    <button id="add-todo">추가</button>
+  </div>
+  <div id="background-image"></div>
+  <div id="weather-info">
+    <!-- 날씨 및 위치 정보 -->
+    <p id="weather"></p>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
